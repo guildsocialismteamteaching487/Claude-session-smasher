@@ -1,3 +1,10 @@
+May 12 Updates:
+> **File save is now optional** - Summary displays in chat first, save when you want.  
+> **Paste prompt added** — Can't install? Use the paste prompt.md file. Same output, works everywhere.  
+> **Enterprise users** — If you see a security warning, it's a false positive, so can safely ignore. Details below.
+
+# Session Smasher
+
 # Session Smasher
 
 **Stop losing context when you start a new Claude chat.**
