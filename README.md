@@ -37,11 +37,11 @@ Most summaries tell the next chat *what happened*. Session Smasher tells it *why
 3. Optionally save it as a downloadable file when prompted
 4. Open a new chat, paste the summary, and continue
 
-## UPDATE 1: Can't install the skill?
+## Note 1: Can't install the skill?
 
 If you're on an Enterprise/Team account, a restricted environment, or the skill shows "not mounted" — paste the contents of [`session-smasher-paste-prompt.md`](session-smasher-paste-prompt.md) into your chat instead. Same rubric, same output, works everywhere. No installation needed.
 
-## UPDATE 2: Note for Enterprise users
+## Note 2: Note for Enterprise users
 
 Some Enterprise accounts may show a prompt injection warning when the skill runs. This is a security classifier being cautious — the skill is entirely local. It reads your conversation, writes a summary, and optionally saves a file to your device. It does not call external APIs, send data anywhere, or access anything outside the current chat. If the warning persists, use the paste prompt instead — it bypasses the skill layer entirely and produces identical output.
 
