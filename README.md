@@ -2,6 +2,7 @@ May 12 Updates:
 > **1. File save is now optional** - Summary displays in chat first, save when you want.  
 > **2. Paste prompt added** — Can't install? Use the paste prompt.md file. Same output, works everywhere.  
 > **3. Enterprise users** — If you see a security warning, it's a false positive, so can safely ignore. Details below.
+> **4. Other Issues on Non-Installation** - Read below
 
 
 # Session Smasher
@@ -45,7 +46,8 @@ Most summaries tell the next chat *what happened*. Session Smasher tells it *why
 
 ## Note 1: Can't install the skill?
 
-If you're on an Enterprise/Team account, a restricted environment, or the skill shows "not mounted" — paste the contents of [`session-smasher-paste-prompt.md`](session-smasher-paste-prompt.md) into your chat instead. Same rubric, same output, works everywhere. No installation needed.
+* If you're on an Enterprise/Team account, a restricted environment, or the skill shows "not mounted" — paste the contents of [`session-smasher-paste-prompt.md`](session-smasher-paste-prompt.md) into your chat instead. Same rubric, same output, works everywhere. No installation needed.
+* Inside a Claude Project? - Skills don't load in Projects. Use the paste prompt instead.
 
 ## Note 2: Note for Enterprise users
 
