@@ -2,7 +2,7 @@ May 12 Updates:
 > **1. File save is now optional** - Summary displays in chat first, save when you want.  
 > **2. Paste prompt added** — Can't install? Use the paste prompt.md file. Same output, works everywhere.  
 > **3. Enterprise users** — If you see a security warning, it's a false positive, so can safely ignore. Details below.
-> **4. Other Issues on Non-Installation** - Read below
+> **4. Other Issues on Non-Installation** - Read below.
 
 
 # Session Smasher
