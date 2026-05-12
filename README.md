@@ -3,7 +3,6 @@ May 12 Updates:
 > **2. Paste prompt added** — Can't install? Use the paste prompt.md file. Same output, works everywhere.  
 > **3. Enterprise users** — If you see a security warning, it's a false positive, so can safely ignore. Details below.
 
-# Session Smasher
 
 # Session Smasher
 
